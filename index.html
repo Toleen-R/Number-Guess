@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gissa Numret</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <div class="input-container">
+            <p>Guess a number between 0 and 100:</p>
+            <input  id="guessInput" min="0" max="100">
+            <button id="guessButton">Submit Guess</button>
+        </div>
+       <div id="previousGuessesContainer">
+    <h2>Previous Guesses</h2>
+    <ul id="previousGuesses"></ul></div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
